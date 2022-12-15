@@ -1,0 +1,47 @@
+
+.container{
+    position: absolute;
+    left: 560px;
+    top: 100px;
+    border: 2px solid black; 
+    /* border-radius: 10px;  */
+}
+/* .container:hover{
+    background-color: aquamarine;
+    border: 2px solid red;
+} */
+.btn{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.inpt{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.col{
+
+}
+.heading{
+    /* display: inline-block; */
+    text-align: center;
+    height: 20px;
+}
+.btn2{
+    background-color: orange;
+}
+.btn0{
+    width: 75px;
+}
+.btn:hover{
+    background-color: black;
+    color: #fff
+}
+.btnequal{
+    background-color: rgb(77, 147, 227);
+}

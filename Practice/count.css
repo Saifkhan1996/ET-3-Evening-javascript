@@ -1,0 +1,36 @@
+body{
+    background-color: chartreuse;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    /* border-radius: 50%; */
+    width: 100px;
+    height:25px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left:50px;
+}
+.btn:hover{
+    background-color: rgb(145, 208, 37);
+box-shadow: 2px 2px 2px red,-2px -2px 2px red
+}
+#htag{
+    color: green;
+    text-align: center;
+}
+#value:hover{
+    color: aqua;
+}
+.maindiv{
+    position: absolute;
+    left:400px;
+    top: 200px;
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+}
+#value{
+    text-align: center;
+}

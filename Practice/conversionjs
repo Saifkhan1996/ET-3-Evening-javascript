@@ -1,0 +1,13 @@
+// how to convert array to an object by for loop
+var arr = ["tom", "jerry", "harry"];
+let obj = {};
+for (i = 0; i <= arr.length - 1; i++) {
+  obj[i] = arr[i];
+}
+// console.log(obj);
+//
+let obj1 = { ...arr };
+// console.log(obj1);
+//
+const newobj = Object.assign({}, arr);
+console.log(newobj);
